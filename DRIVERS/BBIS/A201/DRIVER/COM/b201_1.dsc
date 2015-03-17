@@ -1,19 +1,19 @@
 #************************** BBIS3 board descriptor **************************
 #
-#        Author: see
-#         $Date: 2004/06/21 16:41:05 $
+#        Author: kp
+#         $Date: 1999/06/28 14:53:19 $
 #     $Revision: 1.1 $
 #
-#   Description: Metadescriptor for A201
+#   Description: Metadescriptor for B201
 #
 #****************************************************************************
 
-A201_SW_1 {
+B201_1 {
     #------------------------------------------------------------------------
     #   general parameters (don't modify)
     #------------------------------------------------------------------------
     DESC_TYPE       = U_INT32       2             # descriptor type (2=board)
-    HW_TYPE         = STRING        A201_SW       # hardware name of board
+    HW_TYPE         = STRING        B201          # hardware name of board
 
     #------------------------------------------------------------------------
     #   base address
@@ -35,7 +35,7 @@ A201_SW_1 {
     #------------------------------------------------------------------------
     #   slot interrupts
     #------------------------------------------------------------------------
-    IRQ_VECTOR      = BINARY   0x81, 0x82, 0x83, 0x84  # irq vectors  (slot 0..3) 
-    IRQ_LEVEL       = BINARY   0x03, 0x03, 0x03, 0x03  # irq level    (slot 0..3)
-    IRQ_PRIORITY    = BINARY   0x00, 0x00, 0x00, 0x00  # irq priority (slot 0..3)
+    IRQ_VECTOR      = BINARY   0x81  # irq vectors  (slot 0) 
+    IRQ_LEVEL       = BINARY   0x03  # irq level    (slot 0)
+    IRQ_PRIORITY    = BINARY   0x00  # irq priority (slot 0)
 }

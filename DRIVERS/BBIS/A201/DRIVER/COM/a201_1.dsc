@@ -1,19 +1,19 @@
 #************************** BBIS3 board descriptor **************************
 #
 #        Author: see
-#         $Date: 2004/06/21 16:41:05 $
+#         $Date: 1999/05/26 11:36:46 $
 #     $Revision: 1.1 $
 #
 #   Description: Metadescriptor for A201
 #
 #****************************************************************************
 
-A201_SW_1 {
+A201_1 {
     #------------------------------------------------------------------------
     #   general parameters (don't modify)
     #------------------------------------------------------------------------
     DESC_TYPE       = U_INT32       2             # descriptor type (2=board)
-    HW_TYPE         = STRING        A201_SW       # hardware name of board
+    HW_TYPE         = STRING        A201          # hardware name of board
 
     #------------------------------------------------------------------------
     #   base address
