@@ -784,12 +784,12 @@ static int32 A201_Init
     return( retCode );
 
 CLEANUP:
-    if( descHdlP )
-        DESC_Exit( &descHdlP );
+	if( descHdlP )
+		DESC_Exit( &descHdlP );
 
 	A201_Exit( brdHdlP );
 
-    return( retCode );
+	return( retCode );
 }/*A201_Init*/
 
 /****************************** A201_BrdInit ********************************
