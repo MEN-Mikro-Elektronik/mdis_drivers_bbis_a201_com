@@ -6,21 +6,8 @@
 #
 #    Description: makefile descriptor for B201 BBIS driver
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: driver_b201.mak,v $
-#   Revision 1.3  2004/07/30 11:35:46  ufranke
-#   fixed
-#    - function name GetEntry
-#
-#   Revision 1.2  2004/06/21 16:32:40  dpfeuffer
-#   id library added
-#
-#   Revision 1.1  1999/05/25 10:59:50  kp
-#   Initial Revision
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

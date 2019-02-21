@@ -6,18 +6,8 @@
 #
 #    Description: makefile descriptor for A201_SW BBIS driver
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: driver_sw.mak,v $
-#   Revision 1.2  2004/07/30 11:36:00  ufranke
-#   fixed
-#    - function name GetEntry
-#
-#   Revision 1.1  2004/06/21 16:32:39  dpfeuffer
-#   Initial Revision
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

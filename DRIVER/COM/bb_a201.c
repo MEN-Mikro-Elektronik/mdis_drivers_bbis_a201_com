@@ -23,7 +23,7 @@
  *  
  * Note: functions will be renamed if B201/B202 switch is set
  *---------------------------------------------------------------------------
- * (c) Copyright 1997..2008 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

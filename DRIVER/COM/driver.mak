@@ -6,31 +6,8 @@
 #
 #    Description: makefile descriptor for A201 BBIS driver
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: driver.mak,v $
-#   Revision 1.6  2004/07/30 11:35:20  ufranke
-#   fixed
-#    - function name GetEntry
-#
-#   Revision 1.5  2004/06/21 16:32:36  dpfeuffer
-#   id library added
-#
-#   Revision 1.4  1999/05/25 10:59:48  kp
-#   added MAK_SWITCH
-#
-#   Revision 1.3  1999/03/19 13:33:28  Schmidt
-#   MAK_NAME renamed to a201
-#
-#   Revision 1.2  1998/05/28 15:02:59  see
-#   missing dbg.h added
-#   missing DBG lib added
-#
-#   Revision 1.1  1998/02/19 13:28:39  franke
-#   Added by mcvs
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
