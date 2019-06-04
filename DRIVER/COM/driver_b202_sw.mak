@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: dp
-#          $Date: 2004/07/30 11:35:58 $
-#      $Revision: 1.2 $
 #
 #    Description: makefile descriptor for B202_SW BBIS driver
 #
@@ -24,6 +22,10 @@
 
 
 MAK_NAME=b202_sw
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="mdis_drivers_bbis_a201_com_01_56-0-g1707605-dirty_2019-02-21"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/desc$(LIB_SUFFIX)    \
          $(LIB_PREFIX)$(MEN_LIB_DIR)/oss$(LIB_SUFFIX)     \
@@ -44,6 +46,7 @@ MAK_INCL=$(MEN_INC_DIR)/bb_a201.h     \
          $(MEN_INC_DIR)/modcom.h      \
 
 MAK_SWITCH=$(SW_PREFIX)MAC_MEM_MAPPED \
+		$(SW_PREFIX)$(DEF_REVISION) \
 		   $(SW_PREFIX)MAC_BYTESWAP   \
 		   $(SW_PREFIX)B202=B202		 \
 		   $(SW_PREFIX)A201_VARIANT=B202_SW

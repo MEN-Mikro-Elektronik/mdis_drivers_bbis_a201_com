@@ -4,8 +4,6 @@
  *      Project: A201/B201/B202 board handler
  *
  *       Author: uf
- *        $Date: 2009/08/06 17:25:06 $
- *    $Revision: 1.26 $
  *
  *  Description: A201/B201/B202 board handler routines
  *
@@ -40,7 +38,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: bb_a201.c,v 1.26 2009/08/06 17:25:06 CRuff Exp $";
 
 #include <MEN/mdis_com.h>
 #include <MEN/men_typs.h>
@@ -70,6 +67,8 @@ static const char RCSid[]="$Id: bb_a201.c,v 1.26 2009/08/06 17:25:06 CRuff Exp $
 #include <MEN/bb_defs.h>
 #include <MEN/bb_entry.h>
 #include <MEN/bb_a201.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 
 /*-----------------------------------------+
