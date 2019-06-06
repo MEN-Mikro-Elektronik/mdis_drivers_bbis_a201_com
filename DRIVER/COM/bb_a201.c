@@ -68,8 +68,19 @@
 #include <MEN/bb_entry.h>
 #include <MEN/bb_a201.h>
 
-static const char IdentString[]=MENT_XSTR(MAK_REVISION);
-
+#ifdef B201
+    static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B201)
+#else
+    #ifdef B202
+        static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B202)
+    #else
+        #ifdef A201
+            static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,A201)
+        #else
+            static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+        #endif
+    #endif
+#endif 
 
 /*-----------------------------------------+
 |  DEFINES & CONST                         |
@@ -239,17 +250,7 @@ static int32 CfgInfoSlot( BBIS_HANDLE *brdHdl, va_list argptr );
  ****************************************************************************/
 static char* A201_Ident( void )
 {
-	return ( 
-#ifdef B201
-		"B201 - B201"
-#endif
-#ifdef B202
-		"B201 - B201"
-#endif
-#ifdef A201
-		"A201 - A201"
-#endif
-		"  Base Board Handler: $Id: bb_a201.c,v 1.26 2009/08/06 17:25:06 CRuff Exp $" );
+	return( (char*) IdentString );
 }
 
 /**************************** A201_GetEntry *********************************
