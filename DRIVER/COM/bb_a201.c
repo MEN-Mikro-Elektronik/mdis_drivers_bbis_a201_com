@@ -69,13 +69,13 @@
 #include <MEN/bb_a201.h>
 
 #ifdef B201
-    static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B201)
+    static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B201);
 #else
     #ifdef B202
-        static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B202)
+        static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,B202);
     #else
         #ifdef A201
-            static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,A201)
+            static const char IdentString[]=MENT_XSTR_SFX(MAK_REVISION,A201);
         #else
             static const char IdentString[]=MENT_XSTR(MAK_REVISION);
         #endif
